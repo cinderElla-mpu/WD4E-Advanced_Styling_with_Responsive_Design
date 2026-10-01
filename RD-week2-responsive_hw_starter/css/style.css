@@ -43,7 +43,23 @@ div{
   padding: 2px;
 }
 
+/* Query #1: Tablet View */
+@media (min-width: 772px) {
+  div {
+    width: 45%;
+    display: inline-block;
+  }
+  img {
+    max-height: 30vh;
+  }
+}
 
+/* Query #2: Large Screen View */
+@media (min-width: 998px) {
+  div {
+    width: 30%;
+  }
+}
 
 
 
